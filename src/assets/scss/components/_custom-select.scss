@@ -1,0 +1,40 @@
+.d-select--one {
+    position: relative;
+    float: left;
+    width: 100%;
+    // min-width: 200px;
+
+    &:after {
+        content: '\f078';
+        font: normal normal normal 17px/1 FontAwesome;
+        color: #0D1012;
+        right: 0;
+        top: 0;
+        padding: 0.85rem 0.85rem;
+        background-color: #f3c800;
+        position: absolute;
+        pointer-events: none;
+        cursor: pointer;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* Add some styling */
+      
+        display: block;
+        width: 100%;
+        // max-width: 320px;
+        float: right;
+        padding: 0.65rem 0.65rem;
+        color: #ccc;
+        background-color: #242424;
+        background-image: none;
+        border: none;
+        -ms-word-break: normal;
+        word-break: normal;
+    }
+}

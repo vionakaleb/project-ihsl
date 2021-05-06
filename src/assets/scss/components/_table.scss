@@ -1,0 +1,26 @@
+.iespl-table{
+    th,td{
+        border-top: none;
+        padding-top:8px;
+        padding-bottom:8px;
+        vertical-align: baseline;
+    }
+}
+
+.iespl-table-kill{
+    th,td{
+        border-top: none;
+        padding-top:4px;
+        padding-bottom:4px;
+        vertical-align: baseline;
+    }
+}
+
+.iespl-table-top{
+    th,td{
+        border-top: none;
+        padding-top:0px;
+        padding-bottom:0px;
+        vertical-align: baseline;
+    }
+}

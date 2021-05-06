@@ -1,0 +1,20 @@
+.d-modal--one {
+	.modal-header {
+		padding: 0.5rem;
+    	border-bottom: none;
+		background-color: #252525;
+		.close {
+			padding: 1rem 1.5rem;
+			color: #ffc700;
+			font-size: 2rem;
+			text-shadow: none;
+    		opacity: inherit;
+		}
+		.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+			color: #ffc700bf;
+		}
+	}
+	.modal-content {
+		background-color: #181818;
+	}
+}

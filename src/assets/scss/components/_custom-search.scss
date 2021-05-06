@@ -1,0 +1,133 @@
+// Search
+//
+// Search
+/* The Search Container */
+#d-custom--search {
+    margin:0;
+    padding: 0;
+
+    button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        position: absolute;
+        right: 8px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        color: #f3c500;
+    }
+}
+
+input[type="text"], input[type="number"], input[type="password"] {
+    // font: 15px/24px "Lato", Arial, sans-serif;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+:focus{outline: none;}
+.d-form--input--effect {
+    position: relative;
+}
+.form--controll--effect {
+    border: none;
+    padding: 0.65rem 0.65rem;
+    transition: 0.4s;
+    background: #242424;
+    line-height: 1.5;
+}
+.form--controll--effect~.focus-border:before, .form--controll--effect~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #f3c500;
+    transition: 0.3s;
+}
+.form--controll--effect~.focus-border:after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+.form--controll--effect~.focus-border i:before, .form--controll--effect~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 0;
+    background-color: #f3c500;
+    transition: 0.4s;
+}
+.form--controll--effect~.focus-border i:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+.form--controll--effect:focus~.focus-border:before, .form--controll--effect:focus~.focus-border:after, .has-content.form--controll--effect~.focus-border:before, .has-content.form--controll--effect~.focus-border:after {
+    width: 100%;
+    transition: 0.3s;
+}
+.form--controll--effect:focus~.focus-border i:before, .form--controll--effect:focus~.focus-border i:after, .has-content.form--controll--effect~.focus-border i:before, .has-content.form--controll--effect~.focus-border i:after {
+    height: 100%;
+    transition: 0.4s;
+}
+
+// size sm
+:focus{outline: none;}
+.d-form--input--effect-sm {
+    position: relative;
+}
+.d-form--input--effect-sm {
+    border: none;
+    padding: 0.65rem 0.65rem;
+    transition: 0.4s;
+    background: #242424;
+    line-height: 1.5;
+}
+.d-form--input--effect-sm~.focus-border:before, .d-form--input--effect-sm~.focus-border:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #f3c500;
+    transition: 0.3s;
+}
+.d-form--input--effect-sm~.focus-border:after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+.d-form--input--effect-sm~.focus-border i:before, .d-form--input--effect-sm~.focus-border i:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 0;
+    background-color: #f3c500;
+    transition: 0.4s;
+}
+.d-form--input--effect-sm~.focus-border i:after {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+}
+.d-form--input--effect-sm:focus~.focus-border:before, .d-form--input--effect-sm:focus~.focus-border:after, .has-content.d-form--input--effect-sm~.focus-border:before, .has-content.d-form--input--effect-sm~.focus-border:after {
+    width: 100%;
+    transition: 0.3s;
+}
+.d-form--input--effect-sm:focus~.focus-border i:before, .d-form--input--effect-sm:focus~.focus-border i:after, .has-content.d-form--input--effect-sm~.focus-border i:before, .has-content.d-form--input--effect-sm~.focus-border i:after {
+    height: 100%;
+    transition: 0.4s;
+}

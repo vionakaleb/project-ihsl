@@ -1,0 +1,48 @@
+/*!
+ * Bootstrap Reboot v4.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */
+
+/*!
+ * Bootstrap Grid v4.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+// @at-root { // jumped out all code inside this declaration into root css
+//   @-ms-viewport { width: device-width; } // stylelint-disable-line at-rule-no-vendor-prefix
+// }
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,600|Roboto:400,700|Titillium+Web:200,600');
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import "base";
+
+// @import "~bootstrap/scss/mixins";
+// @import "~bootstrap/scss/root";
+// @import "reset";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "helper";
+@import "components/table";
+@import "components/custom-button";
+@import "components/custom-card";
+@import "components/custom-modal";
+@import "components/custom-select";
+@import "components/custom-search";
+@import "components/custom-image";

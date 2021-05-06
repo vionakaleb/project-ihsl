@@ -1,0 +1,154 @@
+.d-button--one {
+  padding: 1rem 5.2rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  border-radius: 0.4rem;
+  border-radius: 8px;
+}
+
+.d-btn--white {
+  background-color: #ffffff;
+  color: #c6232e;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+}
+
+.d-btn--white:hover {
+  background-color: #c6232e;
+  color: #ffffff;
+  border: 2px solid #c6232e;
+  transition: all 0.5s ease-out;
+}
+
+.d-btn--cari {
+  background-color: #ffffff;
+  color: #c6232e;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+}
+
+.d-btn--cari:hover {
+  background-color: #c6232e;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  transition: all 0.5s ease-out;
+}
+
+.d-btn--red {
+  background-color: #c6232e;
+  color: #110F10;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #c6232e;
+}
+
+.d-btn--red:hover {
+  background-color: #fff;
+  color: #c6232e !important;
+  border: 2px solid #fff;
+  transition: all 0.5s ease-out;
+}
+
+
+.d-btn--red-nav {
+  background-color: #c6232e;
+  color: white !important;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #c6232e;
+  width: 175px;
+  height: 32px;
+}
+
+.d-btn--yellow {
+  background-color: #FFD101;
+  color: #110F10;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #FFD101;
+}
+
+.d-btn--yellow-nav {
+  background-color: #FFD101;
+  color: black !important;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #FFD101;
+  width: 140px;
+  height: 32px;
+}
+
+.d-btn--yellow-border-nav {
+  background-color: #1c2329;
+  color: #FFD001;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 2px solid #FED501;
+}
+
+.d-btn--yellow-border {
+  background-color: #181818;
+  color: #FFD001;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #FED501;
+}
+
+.d-btn--blue {
+  background-color: #007af3;
+  color: #110F10;
+  border-radius: 8px;
+  border: 2px solid #007af3;
+  cursor: pointer;
+  color: white;
+}
+
+.d-btn--blue-border {
+  background-color: #18181800;
+  color: #007af3;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #007af3;
+}
+
+.d-btn--none-border {
+  background-color: #06090e;
+  color: white;
+  border-radius: 8px;
+  border: 0px solid #ffffff;
+  opacity: 0.8;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+
+  /* STYLES GO HERE */
+  .d-button--one {
+    padding: 0.25rem 2rem;
+    font-size: 0.5rem;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  /* STYLES GO HERE */
+  .d-button--one {
+    padding: 0.5rem 2rem;
+    font-size: 0.5rem;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* STYLES GO HERE */
+  .d-button--one {
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+  }
+}
