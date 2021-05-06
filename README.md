@@ -1,6 +1,7 @@
 # ivista-web
 
-> iVista Website
+> IHSL Website
+> http://ihsl.id/home
 
 ## Build Setup
 
